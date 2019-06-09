@@ -4,7 +4,8 @@ def square_array(array)
   counter = 0
 
   while array[counter] < array.length do
-
+    y = array[counter] * array[counter]
+    myArr.push(y)
     counter += 1
   end
 
